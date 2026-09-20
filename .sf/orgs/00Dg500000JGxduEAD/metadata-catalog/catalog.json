@@ -1,0 +1,5113 @@
+{
+  "version": 2,
+  "orgId": "00Dg500000JGxduEAD",
+  "writtenAt": "2026-09-20T17:14:48.812Z",
+  "generation": 102,
+  "inventory": [],
+  "sobjects": {
+    "descriptions": [
+      {
+        "name": "Vijay__c",
+        "label": "Vijay",
+        "custom": true,
+        "queryable": true,
+        "fields": [
+          {
+            "aggregatable": true,
+            "custom": false,
+            "defaultValue": null,
+            "extraTypeInfo": null,
+            "filterable": true,
+            "groupable": true,
+            "inlineHelpText": null,
+            "label": "Record ID",
+            "length": 18,
+            "name": "Id",
+            "nillable": false,
+            "picklistValues": [],
+            "precision": 0,
+            "referenceTo": [],
+            "relationshipName": null,
+            "scale": 0,
+            "sortable": true,
+            "type": "id"
+          },
+          {
+            "aggregatable": true,
+            "custom": false,
+            "defaultValue": null,
+            "extraTypeInfo": null,
+            "filterable": true,
+            "groupable": true,
+            "inlineHelpText": null,
+            "label": "Owner ID",
+            "length": 18,
+            "name": "OwnerId",
+            "nillable": false,
+            "picklistValues": [],
+            "precision": 0,
+            "referenceTo": [
+              "Group",
+              "User"
+            ],
+            "relationshipName": "Owner",
+            "scale": 0,
+            "sortable": true,
+            "type": "reference"
+          },
+          {
+            "aggregatable": false,
+            "custom": false,
+            "defaultValue": false,
+            "extraTypeInfo": null,
+            "filterable": true,
+            "groupable": true,
+            "inlineHelpText": null,
+            "label": "Deleted",
+            "length": 0,
+            "name": "IsDeleted",
+            "nillable": false,
+            "picklistValues": [],
+            "precision": 0,
+            "referenceTo": [],
+            "relationshipName": null,
+            "scale": 0,
+            "sortable": true,
+            "type": "boolean"
+          },
+          {
+            "aggregatable": true,
+            "custom": false,
+            "defaultValue": null,
+            "extraTypeInfo": null,
+            "filterable": true,
+            "groupable": true,
+            "inlineHelpText": null,
+            "label": "Vijay Name",
+            "length": 80,
+            "name": "Name",
+            "nillable": true,
+            "picklistValues": [],
+            "precision": 0,
+            "referenceTo": [],
+            "relationshipName": null,
+            "scale": 0,
+            "sortable": true,
+            "type": "string"
+          },
+          {
+            "aggregatable": true,
+            "custom": false,
+            "defaultValue": null,
+            "extraTypeInfo": null,
+            "filterable": true,
+            "groupable": false,
+            "inlineHelpText": null,
+            "label": "Created Date",
+            "length": 0,
+            "name": "CreatedDate",
+            "nillable": false,
+            "picklistValues": [],
+            "precision": 0,
+            "referenceTo": [],
+            "relationshipName": null,
+            "scale": 0,
+            "sortable": true,
+            "type": "datetime"
+          },
+          {
+            "aggregatable": true,
+            "custom": false,
+            "defaultValue": null,
+            "extraTypeInfo": null,
+            "filterable": true,
+            "groupable": true,
+            "inlineHelpText": null,
+            "label": "Created By ID",
+            "length": 18,
+            "name": "CreatedById",
+            "nillable": false,
+            "picklistValues": [],
+            "precision": 0,
+            "referenceTo": [
+              "User"
+            ],
+            "relationshipName": "CreatedBy",
+            "scale": 0,
+            "sortable": true,
+            "type": "reference"
+          },
+          {
+            "aggregatable": true,
+            "custom": false,
+            "defaultValue": null,
+            "extraTypeInfo": null,
+            "filterable": true,
+            "groupable": false,
+            "inlineHelpText": null,
+            "label": "Last Modified Date",
+            "length": 0,
+            "name": "LastModifiedDate",
+            "nillable": false,
+            "picklistValues": [],
+            "precision": 0,
+            "referenceTo": [],
+            "relationshipName": null,
+            "scale": 0,
+            "sortable": true,
+            "type": "datetime"
+          },
+          {
+            "aggregatable": true,
+            "custom": false,
+            "defaultValue": null,
+            "extraTypeInfo": null,
+            "filterable": true,
+            "groupable": true,
+            "inlineHelpText": null,
+            "label": "Last Modified By ID",
+            "length": 18,
+            "name": "LastModifiedById",
+            "nillable": false,
+            "picklistValues": [],
+            "precision": 0,
+            "referenceTo": [
+              "User"
+            ],
+            "relationshipName": "LastModifiedBy",
+            "scale": 0,
+            "sortable": true,
+            "type": "reference"
+          },
+          {
+            "aggregatable": true,
+            "custom": false,
+            "defaultValue": null,
+            "extraTypeInfo": null,
+            "filterable": true,
+            "groupable": false,
+            "inlineHelpText": null,
+            "label": "System Modstamp",
+            "length": 0,
+            "name": "SystemModstamp",
+            "nillable": false,
+            "picklistValues": [],
+            "precision": 0,
+            "referenceTo": [],
+            "relationshipName": null,
+            "scale": 0,
+            "sortable": true,
+            "type": "datetime"
+          },
+          {
+            "aggregatable": true,
+            "custom": false,
+            "defaultValue": null,
+            "extraTypeInfo": null,
+            "filterable": true,
+            "groupable": true,
+            "inlineHelpText": null,
+            "label": "Last Activity Date",
+            "length": 0,
+            "name": "LastActivityDate",
+            "nillable": true,
+            "picklistValues": [],
+            "precision": 0,
+            "referenceTo": [],
+            "relationshipName": null,
+            "scale": 0,
+            "sortable": true,
+            "type": "date"
+          },
+          {
+            "aggregatable": true,
+            "custom": false,
+            "defaultValue": null,
+            "extraTypeInfo": null,
+            "filterable": true,
+            "groupable": false,
+            "inlineHelpText": null,
+            "label": "Last Viewed Date",
+            "length": 0,
+            "name": "LastViewedDate",
+            "nillable": true,
+            "picklistValues": [],
+            "precision": 0,
+            "referenceTo": [],
+            "relationshipName": null,
+            "scale": 0,
+            "sortable": true,
+            "type": "datetime"
+          },
+          {
+            "aggregatable": true,
+            "custom": false,
+            "defaultValue": null,
+            "extraTypeInfo": null,
+            "filterable": true,
+            "groupable": false,
+            "inlineHelpText": null,
+            "label": "Last Referenced Date",
+            "length": 0,
+            "name": "LastReferencedDate",
+            "nillable": true,
+            "picklistValues": [],
+            "precision": 0,
+            "referenceTo": [],
+            "relationshipName": null,
+            "scale": 0,
+            "sortable": true,
+            "type": "datetime"
+          }
+        ],
+        "childRelationships": [
+          {
+            "childSObject": "AIInsightValue",
+            "field": "SobjectLookupValueId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "AIRecordInsight",
+            "field": "TargetId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "ActivityHistory",
+            "field": "WhatId",
+            "relationshipName": "ActivityHistories"
+          },
+          {
+            "childSObject": "ApprovalSubmission",
+            "field": "RelatedRecordId",
+            "relationshipName": "ApprovalSubmissions"
+          },
+          {
+            "childSObject": "ApprovalWorkItem",
+            "field": "RelatedRecordId",
+            "relationshipName": "ApprovalWorkItems"
+          },
+          {
+            "childSObject": "AttachedContentDocument",
+            "field": "LinkedEntityId",
+            "relationshipName": "AttachedContentDocuments"
+          },
+          {
+            "childSObject": "Attachment",
+            "field": "ParentId",
+            "relationshipName": "Attachments"
+          },
+          {
+            "childSObject": "CollaborationGroupRecord",
+            "field": "RecordId",
+            "relationshipName": "RecordAssociatedGroups"
+          },
+          {
+            "childSObject": "CollaborationGroupRecordChangeEvent",
+            "field": "RecordId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "CombinedAttachment",
+            "field": "ParentId",
+            "relationshipName": "CombinedAttachments"
+          },
+          {
+            "childSObject": "ContactRequest",
+            "field": "WhatId",
+            "relationshipName": "ContactRequests"
+          },
+          {
+            "childSObject": "ContentDistribution",
+            "field": "RelatedRecordId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "ContentDocumentLink",
+            "field": "LinkedEntityId",
+            "relationshipName": "ContentDocumentLinks"
+          },
+          {
+            "childSObject": "ContentDocumentLinkChangeEvent",
+            "field": "LinkedEntityId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "ContentVersion",
+            "field": "FirstPublishLocationId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "ContentVersionChangeEvent",
+            "field": "FirstPublishLocationId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "DuplicateRecordItem",
+            "field": "RecordId",
+            "relationshipName": "DuplicateRecordItems"
+          },
+          {
+            "childSObject": "EmailMessage",
+            "field": "RelatedToId",
+            "relationshipName": "Emails"
+          },
+          {
+            "childSObject": "EmailMessageChangeEvent",
+            "field": "RelatedToId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "EntitySubscription",
+            "field": "ParentId",
+            "relationshipName": "FeedSubscriptionsForEntity"
+          },
+          {
+            "childSObject": "Event",
+            "field": "WhatId",
+            "relationshipName": "Events"
+          },
+          {
+            "childSObject": "EventChangeEvent",
+            "field": "WhatId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "EventRelationChangeEvent",
+            "field": "RelationId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "FeedComment",
+            "field": "ParentId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "FeedItem",
+            "field": "ParentId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "FinanceBalanceSnapshot",
+            "field": "LegalEntityId",
+            "relationshipName": "FinanceBalanceSnapshots"
+          },
+          {
+            "childSObject": "FinanceBalanceSnapshot",
+            "field": "ReferenceEntityId",
+            "relationshipName": "FinanceBalanceSnapshots"
+          },
+          {
+            "childSObject": "FinanceBalanceSnapshotChangeEvent",
+            "field": "LegalEntityId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "FinanceBalanceSnapshotChangeEvent",
+            "field": "ReferenceEntityId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "FinanceTransaction",
+            "field": "DestinationEntityId",
+            "relationshipName": "DestinationFinanceTransactions"
+          },
+          {
+            "childSObject": "FinanceTransaction",
+            "field": "LegalEntityId",
+            "relationshipName": "FinanceTransactions"
+          },
+          {
+            "childSObject": "FinanceTransaction",
+            "field": "ParentReferenceEntityId",
+            "relationshipName": "ParentFinanceTransactions"
+          },
+          {
+            "childSObject": "FinanceTransaction",
+            "field": "ReferenceEntityId",
+            "relationshipName": "FinanceTransactions"
+          },
+          {
+            "childSObject": "FinanceTransaction",
+            "field": "SourceEntityId",
+            "relationshipName": "SourceFinanceTransactions"
+          },
+          {
+            "childSObject": "FinanceTransactionChangeEvent",
+            "field": "DestinationEntityId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "FinanceTransactionChangeEvent",
+            "field": "LegalEntityId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "FinanceTransactionChangeEvent",
+            "field": "ParentReferenceEntityId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "FinanceTransactionChangeEvent",
+            "field": "ReferenceEntityId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "FinanceTransactionChangeEvent",
+            "field": "SourceEntityId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "FlowExecutionErrorEvent",
+            "field": "ContextRecordId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "FlowOrchestrationWorkItem",
+            "field": "RelatedRecordId",
+            "relationshipName": "FlowOrchestrationWorkItems"
+          },
+          {
+            "childSObject": "FlowRecordRelation",
+            "field": "RelatedRecordId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "InventoryItemReservation",
+            "field": "ItemReservationSourceId",
+            "relationshipName": "InventoryReservationSources"
+          },
+          {
+            "childSObject": "InventoryReservation",
+            "field": "ReservationSourceId",
+            "relationshipName": "InventoryReservations"
+          },
+          {
+            "childSObject": "Note",
+            "field": "ParentId",
+            "relationshipName": "Notes"
+          },
+          {
+            "childSObject": "NoteAndAttachment",
+            "field": "ParentId",
+            "relationshipName": "NotesAndAttachments"
+          },
+          {
+            "childSObject": "OpenActivity",
+            "field": "WhatId",
+            "relationshipName": "OpenActivities"
+          },
+          {
+            "childSObject": "OutgoingEmail",
+            "field": "RelatedToId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "ProcessException",
+            "field": "AttachedToId",
+            "relationshipName": "ProcessExceptions"
+          },
+          {
+            "childSObject": "ProcessExceptionChangeEvent",
+            "field": "AttachedToId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "ProcessExceptionEvent",
+            "field": "AttachedToId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "ProcessInstance",
+            "field": "TargetObjectId",
+            "relationshipName": "ProcessInstances"
+          },
+          {
+            "childSObject": "ProcessInstanceChangeEvent",
+            "field": "TargetObjectId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "ProcessInstanceHistory",
+            "field": "TargetObjectId",
+            "relationshipName": "ProcessSteps"
+          },
+          {
+            "childSObject": "RecordAction",
+            "field": "RecordId",
+            "relationshipName": "RecordActions"
+          },
+          {
+            "childSObject": "RecordActionHistory",
+            "field": "ParentRecordId",
+            "relationshipName": "RecordActionHistories"
+          },
+          {
+            "childSObject": "Task",
+            "field": "WhatId",
+            "relationshipName": "Tasks"
+          },
+          {
+            "childSObject": "TaskChangeEvent",
+            "field": "WhatId",
+            "relationshipName": null
+          },
+          {
+            "childSObject": "TopicAssignment",
+            "field": "EntityId",
+            "relationshipName": "TopicAssignments"
+          },
+          {
+            "childSObject": "UserDefinedLabelAssignment",
+            "field": "ItemId",
+            "relationshipName": "UserDefinedLabelAssignments"
+          },
+          {
+            "childSObject": "Vijay__History",
+            "field": "ParentId",
+            "relationshipName": "Histories"
+          },
+          {
+            "childSObject": "Vijay__Share",
+            "field": "ParentId",
+            "relationshipName": "Shares"
+          },
+          {
+            "childSObject": "VoiceCall",
+            "field": "RelatedRecordId",
+            "relationshipName": "RelatedRecords"
+          },
+          {
+            "childSObject": "VoiceCallChangeEvent",
+            "field": "RelatedRecordId",
+            "relationshipName": null
+          }
+        ],
+        "orgId": "00Dg500000JGxduEAD",
+        "observedAt": "2026-09-20T07:51:10.448Z",
+        "provenance": "rest-api"
+      }
+    ]
+  },
+  "tracking": [],
+  "metadataTypes": [
+    {
+      "xmlName": "ActionLauncherItemDef",
+      "directoryName": "ActionLauncherItemDef",
+      "suffix": "actionLauncherItemDef",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ActionLinkGroupTemplate",
+      "directoryName": "actionLinkGroupTemplates",
+      "suffix": "actionLinkGroupTemplate",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "AIApplication",
+      "directoryName": "aiApplications",
+      "suffix": "ai",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "AIApplicationConfig",
+      "directoryName": "aiApplicationConfigs",
+      "suffix": "aiapplicationconfig",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "AnalyticSnapshot",
+      "directoryName": "analyticSnapshots",
+      "suffix": "snapshot",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "AnimationRule",
+      "directoryName": "animationRules",
+      "suffix": "animationRule",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ApexClass",
+      "directoryName": "classes",
+      "suffix": "cls",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ApexComponent",
+      "directoryName": "components",
+      "suffix": "component",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ApexEmailNotifications",
+      "directoryName": "apexEmailNotifications",
+      "suffix": "notifications",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ApexPage",
+      "directoryName": "pages",
+      "suffix": "page",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ApexTestSuite",
+      "directoryName": "testSuites",
+      "suffix": "testSuite",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ApexTrigger",
+      "directoryName": "triggers",
+      "suffix": "trigger",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ApiNamedQuery",
+      "directoryName": "apiNamedQueries",
+      "suffix": "apiNamedQuery",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "AppFrameworkTemplateBundle",
+      "directoryName": "appTemplates",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "AppMenu",
+      "directoryName": "appMenus",
+      "suffix": "appMenu",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "AppointmentAssignmentPolicy",
+      "directoryName": "appointmentAssignmentPolicies",
+      "suffix": "policy",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "AppointmentSchedulingPolicy",
+      "directoryName": "appointmentSchedulingPolicies",
+      "suffix": "policy",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ApprovalProcess",
+      "directoryName": "approvalProcesses",
+      "suffix": "approvalProcess",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "AssignmentRules",
+      "directoryName": "assignmentRules",
+      "suffix": "assignmentRules",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [
+        "AssignmentRule"
+      ],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "AuraDefinitionBundle",
+      "directoryName": "aura",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "AuthProvider",
+      "directoryName": "authproviders",
+      "suffix": "authprovider",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "AutoResponseRules",
+      "directoryName": "autoResponseRules",
+      "suffix": "autoResponseRules",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [
+        "AutoResponseRule"
+      ],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "BlacklistedConsumer",
+      "directoryName": "blacklistedConsumers",
+      "suffix": "blacklistedConsumer",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "BrandingSet",
+      "directoryName": "brandingSets",
+      "suffix": "brandingSet",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "BriefcaseDefinition",
+      "directoryName": "briefcaseDefinitions",
+      "suffix": "briefcaseDefinition",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CallCenter",
+      "directoryName": "callCenters",
+      "suffix": "callCenter",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CallCenterRoutingMap",
+      "directoryName": "callCenterRoutingMaps",
+      "suffix": "callCenterRoutingMap",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CallCoachingMediaProvider",
+      "directoryName": "callCoachingMediaProviders",
+      "suffix": "callCoachingMediaProvider",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CanvasMetadata",
+      "directoryName": "Canvases",
+      "suffix": "Canvas",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CatalogedApi",
+      "directoryName": "catalogedApis",
+      "suffix": "catalogedApi",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CatalogedApiArtifactVersionInfo",
+      "directoryName": "catalogedApiArtifactVersionInfos",
+      "suffix": "catalogedApiArtifactVersionInfo",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CatalogedApiVersion",
+      "directoryName": "catalogedApiVersions",
+      "suffix": "catalogedApiVersion",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "Certificate",
+      "directoryName": "certs",
+      "suffix": "crt",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ChannelLayout",
+      "directoryName": "channelLayouts",
+      "suffix": "channelLayout",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ChatterExtension",
+      "directoryName": "ChatterExtensions",
+      "suffix": "ChatterExtension",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ChoiceList",
+      "directoryName": "ChoiceList",
+      "suffix": "ChoiceList",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CleanDataService",
+      "directoryName": "cleanDataServices",
+      "suffix": "cleanDataService",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "Community",
+      "directoryName": "communities",
+      "suffix": "community",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ConnectedApp",
+      "directoryName": "connectedApps",
+      "suffix": "connectedApp",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ContentAsset",
+      "directoryName": "contentassets",
+      "suffix": "asset",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ContentTypeBundle",
+      "directoryName": "contentTypes",
+      "suffix": "contentType",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ConversationChannelDefinition",
+      "directoryName": "conversationChannelDefinitions",
+      "suffix": "ConversationChannelDefinition",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ConversationMessageDefinition",
+      "directoryName": "conversationMessageDefinitions",
+      "suffix": "conversationMessageDefinition",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ConversationVendorInfo",
+      "directoryName": "ConversationVendorInformation",
+      "suffix": "ConversationVendorInformation",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ConvIntelligenceSignalRule",
+      "directoryName": "ConvIntelligenceSignalRule",
+      "suffix": "ConvIntelligenceSignalRule",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CorsWhitelistOrigin",
+      "directoryName": "corsWhitelistOrigins",
+      "suffix": "corsWhitelistOrigin",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CspTrustedSite",
+      "directoryName": "cspTrustedSites",
+      "suffix": "cspTrustedSite",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CustomApplication",
+      "directoryName": "applications",
+      "suffix": "app",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CustomApplicationComponent",
+      "directoryName": "customApplicationComponents",
+      "suffix": "customApplicationComponent",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CustomFeedFilter",
+      "directoryName": "feedFilters",
+      "suffix": "feedFilter",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CustomHelpMenuSection",
+      "directoryName": "customHelpMenuSections",
+      "suffix": "customHelpMenuSection",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CustomIndex",
+      "directoryName": "customindex",
+      "suffix": "indx",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CustomLabels",
+      "directoryName": "labels",
+      "suffix": "labels",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [
+        "CustomLabel"
+      ],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CustomMetadata",
+      "directoryName": "customMetadata",
+      "suffix": "md",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CustomNotificationType",
+      "directoryName": "notificationtypes",
+      "suffix": "notiftype",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CustomObject",
+      "directoryName": "objects",
+      "suffix": "object",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [
+        "BusinessProcess",
+        "CompactLayout",
+        "CustomField",
+        "FieldSet",
+        "Index",
+        "ListView",
+        "RecordType",
+        "SharingReason",
+        "ValidationRule",
+        "WebLink"
+      ],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CustomObjectTranslation",
+      "directoryName": "objectTranslations",
+      "suffix": "objectTranslation",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CustomPageWebLink",
+      "directoryName": "weblinks",
+      "suffix": "weblink",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CustomPermission",
+      "directoryName": "customPermissions",
+      "suffix": "customPermission",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CustomSite",
+      "directoryName": "sites",
+      "suffix": "site",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "CustomTab",
+      "directoryName": "tabs",
+      "suffix": "tab",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "Dashboard",
+      "directoryName": "dashboards",
+      "suffix": "dashboard",
+      "inFolder": true,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "DataCategoryGroup",
+      "directoryName": "datacategorygroups",
+      "suffix": "datacategorygroup",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "DataWeaveResource",
+      "directoryName": "dw",
+      "suffix": "dwl",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "DelegateGroup",
+      "directoryName": "delegateGroups",
+      "suffix": "delegateGroup",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "DgtAssetMgmtProvider",
+      "directoryName": "dgtAssetMgmtProviders",
+      "suffix": "dgtAssetMgmtProvider",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "DgtAssetMgmtPrvdLghtCpnt",
+      "directoryName": "dgtAssetMgmtPrvdLghtCpnts",
+      "suffix": "dgtAssetMgmtPrvdLghtCpnt",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "DigitalExperienceBundle",
+      "directoryName": "digitalExperiences",
+      "suffix": "digitalExperience",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [
+        "DigitalExperience"
+      ],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "Document",
+      "directoryName": "documents",
+      "inFolder": true,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "DuplicateRule",
+      "directoryName": "duplicateRules",
+      "suffix": "duplicateRule",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "EclairGeoData",
+      "directoryName": "eclair",
+      "suffix": "geodata",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "EmailServicesFunction",
+      "directoryName": "emailservices",
+      "suffix": "xml",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "EmailTemplate",
+      "directoryName": "email",
+      "suffix": "email",
+      "inFolder": true,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "EmbeddedServiceBranding",
+      "directoryName": "EmbeddedServiceBranding",
+      "suffix": "EmbeddedServiceBranding",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "EmbeddedServiceConfig",
+      "directoryName": "EmbeddedServiceConfig",
+      "suffix": "EmbeddedServiceConfig",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "EmbeddedServiceFlowConfig",
+      "directoryName": "EmbeddedServiceFlowConfig",
+      "suffix": "EmbeddedServiceFlowConfig",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "EmbeddedServiceMenuSettings",
+      "directoryName": "EmbeddedServiceMenuSettings",
+      "suffix": "EmbeddedServiceMenuSettings",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "EntitlementProcess",
+      "directoryName": "entitlementProcesses",
+      "suffix": "entitlementProcess",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "EntitlementTemplate",
+      "directoryName": "entitlementTemplates",
+      "suffix": "entitlementTemplate",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "EscalationRules",
+      "directoryName": "escalationRules",
+      "suffix": "escalationRules",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [
+        "EscalationRule"
+      ],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "EventRelayConfig",
+      "directoryName": "eventRelays",
+      "suffix": "eventRelay",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ExperienceContainer",
+      "directoryName": "experienceContainers",
+      "suffix": "experienceContainer",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ExperiencePropertyTypeBundle",
+      "directoryName": "experiencePropertyTypeBundles",
+      "suffix": "experiencePropertyTypeBundle",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ExternalAuthIdentityProvider",
+      "directoryName": "externalAuthIdentityProviders",
+      "suffix": "externalAuthIdentityProvider",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ExternalClientApplication",
+      "directoryName": "externalClientApps",
+      "suffix": "eca",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ExternalCredential",
+      "directoryName": "externalCredentials",
+      "suffix": "externalCredential",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ExternalDataSource",
+      "directoryName": "dataSources",
+      "suffix": "dataSource",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [
+        "ExternalDataSrcDescriptor"
+      ],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ExternalServiceRegistration",
+      "directoryName": "externalServiceRegistrations",
+      "suffix": "externalServiceRegistration",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ExtlClntAppCanvasSettings",
+      "directoryName": "extlClntAppCanvasSettings",
+      "suffix": "ecaCanvas",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ExtlClntAppConfigurablePolicies",
+      "directoryName": "extlClntAppPolicies",
+      "suffix": "ecaPlcy",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ExtlClntAppGlobalOauthSettings",
+      "directoryName": "extlClntAppGlobalOauthSets",
+      "suffix": "ecaGlblOauth",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ExtlClntAppMobileConfigurablePolicies",
+      "directoryName": "extlClntAppMobilePolicies",
+      "suffix": "ecaMobilePlcy",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ExtlClntAppMobileSettings",
+      "directoryName": "extlClntAppMobileSettings",
+      "suffix": "ecaMobile",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ExtlClntAppNotificationSettings",
+      "directoryName": "extlClntAppNotifSettings",
+      "suffix": "ecaNotifications",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ExtlClntAppOauthConfigurablePolicies",
+      "directoryName": "extlClntAppOauthPolicies",
+      "suffix": "ecaOauthPlcy",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ExtlClntAppOauthSecuritySettings",
+      "directoryName": "extlClntAppOauthSecuritySettings",
+      "suffix": "ecaOauthSecurity",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ExtlClntAppOauthSettings",
+      "directoryName": "extlClntAppOauthSettings",
+      "suffix": "ecaOauth",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ExtlClntAppPushConfigurablePolicies",
+      "directoryName": "extlClntAppPushPolicies",
+      "suffix": "ecaPushPlcy",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ExtlClntAppPushSettings",
+      "directoryName": "extlClntAppPushSettings",
+      "suffix": "ecaPush",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ExtlClntAppSamlConfigurablePolicies",
+      "directoryName": "extlClntAppSamlConfigurablePolicies",
+      "suffix": "ecaSamlPlcy",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "FieldRestrictionRule",
+      "directoryName": "fieldRestrictionRules",
+      "suffix": "rule",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "FlexiPage",
+      "directoryName": "flexipages",
+      "suffix": "flexipage",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "Flow",
+      "directoryName": "flows",
+      "suffix": "flow",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "FlowCategory",
+      "directoryName": "flowCategories",
+      "suffix": "flowCategory",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "FlowDefinition",
+      "directoryName": "flowDefinitions",
+      "suffix": "flowDefinition",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "FlowTest",
+      "directoryName": "flowtests",
+      "suffix": "flowtest",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "FlowValueMap",
+      "directoryName": "flowValueMaps",
+      "suffix": "flowvaluemap",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "GatewayProviderPaymentMethodType",
+      "directoryName": "gatewayProviderPaymentMethodTypes",
+      "suffix": "gatewayProviderPaymentMethodType",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "GlobalValueSet",
+      "directoryName": "globalValueSets",
+      "suffix": "globalValueSet",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "GlobalValueSetTranslation",
+      "directoryName": "globalValueSetTranslations",
+      "suffix": "globalValueSetTranslation",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "Group",
+      "directoryName": "groups",
+      "suffix": "group",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "HomePageComponent",
+      "directoryName": "homePageComponents",
+      "suffix": "homePageComponent",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "HomePageLayout",
+      "directoryName": "homePageLayouts",
+      "suffix": "homePageLayout",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "IframeWhiteListUrlSettings",
+      "directoryName": "iframeWhiteListUrlSettings",
+      "suffix": "iframeWhiteListUrlSettings",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "InboundNetworkConnection",
+      "directoryName": "inboundNetworkConnections",
+      "suffix": "inboundNetworkConnection",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "InvocableActionExtension",
+      "directoryName": "invocableactionextensions",
+      "suffix": "invocableactionextension",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "IPAddressRange",
+      "directoryName": "IPAddressRanges",
+      "suffix": "IPAddressRange",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "Layout",
+      "directoryName": "layouts",
+      "suffix": "layout",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "LeadConvertSettings",
+      "directoryName": "LeadConvertSettings",
+      "suffix": "LeadConvertSetting",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "Letterhead",
+      "directoryName": "letterhead",
+      "suffix": "letter",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "LightningBolt",
+      "directoryName": "lightningBolts",
+      "suffix": "lightningBolt",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "LightningComponentBundle",
+      "directoryName": "lwc",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "LightningExperienceTheme",
+      "directoryName": "lightningExperienceThemes",
+      "suffix": "lightningExperienceTheme",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "LightningMessageChannel",
+      "directoryName": "messageChannels",
+      "suffix": "messageChannel",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "LightningOnboardingConfig",
+      "directoryName": "lightningOnboardingConfigs",
+      "suffix": "lightningOnboardingConfig",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "LightningTypeBundle",
+      "directoryName": "lightningTypes",
+      "suffix": "lightningType",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "LiveChatSensitiveDataRule",
+      "directoryName": "liveChatSensitiveDataRule",
+      "suffix": "liveChatSensitiveDataRule",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ManagedContentType",
+      "directoryName": "managedContentTypes",
+      "suffix": "managedContentType",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ManagedEventSubscription",
+      "directoryName": "managedEventSubscriptions",
+      "suffix": "managedEventSubscription",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "MatchingRules",
+      "directoryName": "matchingRules",
+      "suffix": "matchingRule",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [
+        "MatchingRule"
+      ],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "McpServerDefinition",
+      "directoryName": "mcpServerDefinitions",
+      "suffix": "mcpServerDefinition",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "MessagingChannel",
+      "directoryName": "messagingChannels",
+      "suffix": "messagingChannel",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "MilestoneType",
+      "directoryName": "milestoneTypes",
+      "suffix": "milestoneType",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "MLDataDefinition",
+      "directoryName": "mlDataDefinitions",
+      "suffix": "mlDataDefinition",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "MLPredictionDefinition",
+      "directoryName": "mlPredictions",
+      "suffix": "mlPrediction",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "MLRecommendationDefinition",
+      "directoryName": "mlRecommendations",
+      "suffix": "mlRecommendation",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "MobileApplicationDetail",
+      "directoryName": "MobileApplicationDetails",
+      "suffix": "MobileApplicationDetail",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "MutingPermissionSet",
+      "directoryName": "mutingpermissionsets",
+      "suffix": "mutingpermissionset",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "MyDomainDiscoverableLogin",
+      "directoryName": "myDomainDiscoverableLogins",
+      "suffix": "myDomainDiscoverableLogin",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "NamedCredential",
+      "directoryName": "namedCredentials",
+      "suffix": "namedCredential",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "NetworkBranding",
+      "directoryName": "networkBranding",
+      "suffix": "networkBranding",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "NotificationTypeConfig",
+      "directoryName": "notificationTypeConfig",
+      "suffix": "config",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "OauthCustomScope",
+      "directoryName": "oauthcustomscopes",
+      "suffix": "oauthcustomscope",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "OauthTokenExchangeHandler",
+      "directoryName": "oauthtokenexchangehandlers",
+      "suffix": "oauthtokenexchangehandler",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "OutboundNetworkConnection",
+      "directoryName": "outboundNetworkConnections",
+      "suffix": "outboundNetworkConnection",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "PathAssistant",
+      "directoryName": "pathAssistants",
+      "suffix": "pathAssistant",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "PaymentGatewayProvider",
+      "directoryName": "paymentGatewayProviders",
+      "suffix": "paymentGatewayProvider",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "PermissionSet",
+      "directoryName": "permissionsets",
+      "suffix": "permissionset",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "PermissionSetGroup",
+      "directoryName": "permissionsetgroups",
+      "suffix": "permissionsetgroup",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "PermissionSetLicenseDefinition",
+      "directoryName": "permissionSetLicenseDefinitions",
+      "suffix": "permissionSetLicenseDefinition",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "PlatformCachePartition",
+      "directoryName": "cachePartitions",
+      "suffix": "cachePartition",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "PlatformEventChannel",
+      "directoryName": "platformEventChannels",
+      "suffix": "platformEventChannel",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "PlatformEventChannelMember",
+      "directoryName": "platformEventChannelMembers",
+      "suffix": "platformEventChannelMember",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "PlatformEventMigration",
+      "directoryName": "platformEventMigrations",
+      "suffix": "platformEventMigration",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "PlatformEventSubscriberConfig",
+      "directoryName": "PlatformEventSubscriberConfigs",
+      "suffix": "platformEventSubscriberConfig",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "PostTemplate",
+      "directoryName": "postTemplates",
+      "suffix": "postTemplate",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ProcessFlowMigration",
+      "directoryName": "processflowmigrations",
+      "suffix": "processflowmigration",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ProductAttributeSet",
+      "directoryName": "productAttributeSets",
+      "suffix": "productAttributeSet",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ProfilePasswordPolicy",
+      "directoryName": "profilePasswordPolicies",
+      "suffix": "profilePasswordPolicy",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ProfileSessionSetting",
+      "directoryName": "profileSessionSettings",
+      "suffix": "profileSessionSetting",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "Prompt",
+      "directoryName": "prompts",
+      "suffix": "prompt",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "PublicKeyCertificate",
+      "directoryName": "PublicKeyCertificate",
+      "suffix": "PublicKeyCertificate",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "PublicKeyCertificateSet",
+      "directoryName": "PublicKeyCertificateSet",
+      "suffix": "PublicKeyCertificateSet",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "Queue",
+      "directoryName": "queues",
+      "suffix": "queue",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "QuickAction",
+      "directoryName": "quickActions",
+      "suffix": "quickAction",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "RecommendationStrategy",
+      "directoryName": "recommendationStrategies",
+      "suffix": "recommendationStrategy",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "RecordActionDeployment",
+      "directoryName": "recordActionDeployments",
+      "suffix": "deployment",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "RedirectWhitelistUrl",
+      "directoryName": "redirectWhitelistUrls",
+      "suffix": "redirectWhitelistUrl",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "RemoteSiteSetting",
+      "directoryName": "remoteSiteSettings",
+      "suffix": "remoteSite",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "Report",
+      "directoryName": "reports",
+      "suffix": "report",
+      "inFolder": true,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "ReportType",
+      "directoryName": "reportTypes",
+      "suffix": "reportType",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "RestrictionRule",
+      "directoryName": "restrictionRules",
+      "suffix": "rule",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "Role",
+      "directoryName": "roles",
+      "suffix": "role",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "SamlSsoConfig",
+      "directoryName": "samlssoconfigs",
+      "suffix": "samlssoconfig",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "SearchCustomization",
+      "directoryName": "searchCustomizations",
+      "suffix": "searchCustomization",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "SearchOrgWideObjectConfig",
+      "directoryName": "searchOrgWideConfiguration",
+      "suffix": "searchOrgWideObjectConfig",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "Settings",
+      "directoryName": "settings",
+      "suffix": "settings",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "SharingRules",
+      "directoryName": "sharingRules",
+      "suffix": "sharingRules",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [
+        "SharingCriteriaRule",
+        "SharingGuestRule",
+        "SharingOwnerRule"
+      ],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "SharingSet",
+      "directoryName": "sharingSets",
+      "suffix": "sharingSet",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "SiteDotCom",
+      "directoryName": "siteDotComSites",
+      "suffix": "site",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "Skill",
+      "directoryName": "skills",
+      "suffix": "skill",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "SkillType",
+      "directoryName": "skilltypes",
+      "suffix": "skilltype",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "StandardValueSet",
+      "directoryName": "standardValueSets",
+      "suffix": "standardValueSet",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "StandardValueSetTranslation",
+      "directoryName": "standardValueSetTranslations",
+      "suffix": "standardValueSetTranslation",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "StaticDynamicValMapping",
+      "directoryName": "staticDynamicValMappings",
+      "suffix": "staticDynamicValMapping",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "StaticResource",
+      "directoryName": "staticresources",
+      "suffix": "resource",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "SynonymDictionary",
+      "directoryName": "synonymDictionaries",
+      "suffix": "synonymDictionary",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "TagSet",
+      "directoryName": "tagSet",
+      "suffix": "tagSet",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [
+        "Tag"
+      ],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "TopicsForObjects",
+      "directoryName": "topicsForObjects",
+      "suffix": "topicsForObjects",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "TransactionSecurityPolicy",
+      "directoryName": "transactionSecurityPolicies",
+      "suffix": "transactionSecurityPolicy",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "UIBundle",
+      "directoryName": "uiBundles",
+      "suffix": "uibundle",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "UiFormatSpecificationSet",
+      "directoryName": "uiFormatSpecificationSets",
+      "suffix": "uiFormatSpecificationSet",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "UserProvisioningConfig",
+      "directoryName": "userProvisioningConfigs",
+      "suffix": "userProvisioningConfig",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "WaveAnalyticAssetCollection",
+      "directoryName": "wave",
+      "suffix": "collection",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    },
+    {
+      "xmlName": "Workflow",
+      "directoryName": "workflows",
+      "suffix": "workflow",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [
+        "WorkflowAlert",
+        "WorkflowFieldUpdate",
+        "WorkflowFlowAutomation",
+        "WorkflowKnowledgePublish",
+        "WorkflowOutboundMessage",
+        "WorkflowRule",
+        "WorkflowSend",
+        "WorkflowTask"
+      ],
+      "observedAt": "2026-09-20T07:43:30.226Z"
+    }
+  ],
+  "metadataListings": [
+    {
+      "xmlName": "CustomField",
+      "observedAt": "2026-09-20T07:50:58.787Z",
+      "components": [
+        {
+          "fullName": "Account.Active__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Account.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Account.CustomerPriority__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Account.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Account.NumberofLocations__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Account.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Account.SLA__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Account.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Account.SLAExpirationDate__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Account.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Account.SLASerialNumber__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Account.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Account.UpsellOpportunity__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Account.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Book__c.Author__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Book__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Book__c.Book_Flow_Label__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Book__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Book__c.Book_Summary__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Book__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Book__c.Genre__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Book__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Book__c.Link_to_Book__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Book__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Book__c.Recommendation__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Book__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Book__c.Staff_Recommended__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Book__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Book_Line_Item__c.Book__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Book_Line_Item__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Book_Line_Item__c.Book_Order__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Book_Line_Item__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Book_Line_Item__c.Preordered__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Book_Line_Item__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Book_Line_Item__c.Quantity__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Book_Line_Item__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Book_Order__c.Contact__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Book_Order__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Book_Order__c.Imported__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Book_Order__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Book_Order__c.Number_Ordered__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Book_Order__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Book_Order__c.Order_Date__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Book_Order__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Book_Order__c.Sequence__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Book_Order__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Book_Order__c.Status__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Book_Order__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Case.EngineeringReqNumber__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Case.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Case.PotentialLiability__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Case.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Case.Product__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Case.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Case.SLAViolation__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Case.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Contact.Birthday_Day__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Contact.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Contact.Birthday_Month__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Contact.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Contact.Book_Count__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Contact.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Contact.Current_Recommendation__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Contact.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Contact.Favorite_Genre__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Contact.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Contact.Languages__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Contact.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Contact.Last_Outreach__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Contact.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Contact.Level__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Contact.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Contact.Loyalty_Points__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Contact.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Contact.Loyalty_Status__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Contact.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Contact.Preordered_Book_Count__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Contact.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Contact.Version_1_Check_Box_Update__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Contact.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Contact.VIP__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Contact.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Contact.VIP_Discount__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Contact.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Contact.Why_should_you_read_this_book__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Contact.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowPersonalConfiguration__c.ActorId__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowPersonalConfiguration__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowPersonalConfiguration__c.Config1Name__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowPersonalConfiguration__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowPersonalConfiguration__c.Config1Value__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowPersonalConfiguration__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowPersonalConfiguration__c.Config2Name__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowPersonalConfiguration__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowPersonalConfiguration__c.Config2Value__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowPersonalConfiguration__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowPersonalConfiguration__c.Config3Name__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowPersonalConfiguration__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowPersonalConfiguration__c.Config3Value__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowPersonalConfiguration__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowPersonalConfiguration__c.Config4Name__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowPersonalConfiguration__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowPersonalConfiguration__c.Config4Value__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowPersonalConfiguration__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowPersonalConfiguration__c.Config5Name__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowPersonalConfiguration__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowPersonalConfiguration__c.Config5Value__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowPersonalConfiguration__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowPersonalConfiguration__c.Config6Name__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowPersonalConfiguration__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowPersonalConfiguration__c.Config6Value__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowPersonalConfiguration__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowPersonalConfiguration__c.Config7Name__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowPersonalConfiguration__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowPersonalConfiguration__c.Config7Value__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowPersonalConfiguration__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowPersonalConfiguration__c.Config8Name__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowPersonalConfiguration__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowPersonalConfiguration__c.Config8Value__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowPersonalConfiguration__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowPersonalConfiguration__c.Config9Name__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowPersonalConfiguration__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowPersonalConfiguration__c.Config9Value__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowPersonalConfiguration__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowPersonalConfiguration__c.LocationId__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowPersonalConfiguration__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowTableViewDefinition__c.Active__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowTableViewDefinition__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowTableViewDefinition__c.Alignments__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowTableViewDefinition__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowTableViewDefinition__c.Cell_Attributes__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowTableViewDefinition__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowTableViewDefinition__c.Edits__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowTableViewDefinition__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowTableViewDefinition__c.Field_API_Names__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowTableViewDefinition__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowTableViewDefinition__c.Field_Sorting__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowTableViewDefinition__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowTableViewDefinition__c.Filters__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowTableViewDefinition__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowTableViewDefinition__c.Icons__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowTableViewDefinition__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowTableViewDefinition__c.Labels__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowTableViewDefinition__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowTableViewDefinition__c.Object_API_Name__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowTableViewDefinition__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowTableViewDefinition__c.Other_Attributes__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowTableViewDefinition__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowTableViewDefinition__c.Selection_Method__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowTableViewDefinition__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowTableViewDefinition__c.Type_Attributes__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowTableViewDefinition__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowTableViewDefinition__c.View_Name__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowTableViewDefinition__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowTableViewDefinition__c.Widths__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowTableViewDefinition__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowTableViewDefinition__c.Wraps__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowTableViewDefinition__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Goal.OrigGoalId__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Goal.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Lead.CurrentGenerators__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Lead.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Lead.NumberofLocations__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Lead.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Lead.Primary__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Lead.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Lead.ProductInterest__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Lead.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Lead.SICCode__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Lead.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Metric.OrigMetricId__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Metric.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Opportunity.CurrentGenerators__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Opportunity.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Opportunity.DeliveryInstallationStatus__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Opportunity.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Opportunity.MainCompetitors__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Opportunity.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Opportunity.OrderNumber__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Opportunity.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Opportunity.TrackingNumber__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Opportunity.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "thsecurity__AppLog__c.thsecurity__Class__c",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "objects/thsecurity__AppLog__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "thsecurity__AppLog__c.thsecurity__Log_Level__c",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "objects/thsecurity__AppLog__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "thsecurity__AppLog__c.thsecurity__Message__c",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "objects/thsecurity__AppLog__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "thsecurity__AppLogEvent__e.thsecurity__Class__c",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "objects/thsecurity__AppLogEvent__e.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "thsecurity__AppLogEvent__e.thsecurity__Log_Level__c",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "objects/thsecurity__AppLogEvent__e.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "thsecurity__AppLogEvent__e.thsecurity__Message__c",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "objects/thsecurity__AppLogEvent__e.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "thsecurity__PublicKey__mdt.thsecurity__Active__c",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "objects/thsecurity__PublicKey__mdt.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "thsecurity__PublicKey__mdt.thsecurity__Key__c",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "objects/thsecurity__PublicKey__mdt.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "thsecurity__Setting__mdt.thsecurity__Debug__c",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "objects/thsecurity__Setting__mdt.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "thsecurity__Setting__mdt.thsecurity__TestAPIVersion__c",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "objects/thsecurity__Setting__mdt.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "thsecurity__TestPrivateKey__mdt.thsecurity__Key__c",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "objects/thsecurity__TestPrivateKey__mdt.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "thsecurity__TestPublicKey__mdt.thsecurity__Active__c",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "objects/thsecurity__TestPublicKey__mdt.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "thsecurity__TestPublicKey__mdt.thsecurity__Key__c",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "objects/thsecurity__TestPublicKey__mdt.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        }
+      ]
+    },
+    {
+      "xmlName": "CustomObject",
+      "observedAt": "2026-09-20T07:50:25.844Z",
+      "components": [
+        {
+          "fullName": "Account",
+          "fileName": "objects/Account.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "AccountCleanInfo",
+          "fileName": "objects/AccountCleanInfo.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "AccountContactRole",
+          "fileName": "objects/AccountContactRole.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Activity",
+          "fileName": "objects/Activity.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Address",
+          "fileName": "objects/Address.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "AiJobRun",
+          "fileName": "objects/AiJobRun.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "AlternativePaymentMethod",
+          "fileName": "objects/AlternativePaymentMethod.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "AnalyticsUserAttrFuncTkn",
+          "fileName": "objects/AnalyticsUserAttrFuncTkn.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "AppointmentCategory",
+          "fileName": "objects/AppointmentCategory.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "AppointmentInvitation",
+          "fileName": "objects/AppointmentInvitation.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "AppointmentInvitee",
+          "fileName": "objects/AppointmentInvitee.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "AppointmentScheduleLog",
+          "fileName": "objects/AppointmentScheduleLog.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "AppointmentTopicTimeSlot",
+          "fileName": "objects/AppointmentTopicTimeSlot.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ApprovalSubmission",
+          "fileName": "objects/ApprovalSubmission.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ApprovalSubmissionDetail",
+          "fileName": "objects/ApprovalSubmissionDetail.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ApprovalWorkItem",
+          "fileName": "objects/ApprovalWorkItem.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Asset",
+          "fileName": "objects/Asset.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "AssetAction",
+          "fileName": "objects/AssetAction.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "AssetActionSource",
+          "fileName": "objects/AssetActionSource.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "AssetRelationship",
+          "fileName": "objects/AssetRelationship.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "AssetStatePeriod",
+          "fileName": "objects/AssetStatePeriod.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "AssignedResource",
+          "fileName": "objects/AssignedResource.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "AssistantProgress",
+          "fileName": "objects/AssistantProgress.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "AssociatedLocation",
+          "fileName": "objects/AssociatedLocation.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "AuthorizationForm",
+          "fileName": "objects/AuthorizationForm.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "AuthorizationFormConsent",
+          "fileName": "objects/AuthorizationFormConsent.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "AuthorizationFormDataUse",
+          "fileName": "objects/AuthorizationFormDataUse.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "AuthorizationFormText",
+          "fileName": "objects/AuthorizationFormText.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Book__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Book__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Book_Line_Item__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Book_Line_Item__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "Book_Order__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Book_Order__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "BusinessBrand",
+          "fileName": "objects/BusinessBrand.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "BuyerGroup",
+          "fileName": "objects/BuyerGroup.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Campaign",
+          "fileName": "objects/Campaign.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CampaignMember",
+          "fileName": "objects/CampaignMember.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CardPaymentMethod",
+          "fileName": "objects/CardPaymentMethod.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CartCheckoutSession",
+          "fileName": "objects/CartCheckoutSession.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CartDeliveryGroup",
+          "fileName": "objects/CartDeliveryGroup.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CartDeliveryGroupMethod",
+          "fileName": "objects/CartDeliveryGroupMethod.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CartItem",
+          "fileName": "objects/CartItem.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CartItemPriceAdjustment",
+          "fileName": "objects/CartItemPriceAdjustment.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CartRelatedItem",
+          "fileName": "objects/CartRelatedItem.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CartTax",
+          "fileName": "objects/CartTax.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CartValidationOutput",
+          "fileName": "objects/CartValidationOutput.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Case",
+          "fileName": "objects/Case.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CaseContactRole",
+          "fileName": "objects/CaseContactRole.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CaseMilestone",
+          "fileName": "objects/CaseMilestone.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CaseRelatedIssue",
+          "fileName": "objects/CaseRelatedIssue.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ChangeRequest",
+          "fileName": "objects/ChangeRequest.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ChangeRequestRelatedIssue",
+          "fileName": "objects/ChangeRequestRelatedIssue.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ChangeRequestRelatedItem",
+          "fileName": "objects/ChangeRequestRelatedItem.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ChatterActivity",
+          "fileName": "objects/ChatterActivity.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CollaborationGroup",
+          "fileName": "objects/CollaborationGroup.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CollaborationGroupMember",
+          "fileName": "objects/CollaborationGroupMember.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CommSubscription",
+          "fileName": "objects/CommSubscription.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CommSubscriptionChannelType",
+          "fileName": "objects/CommSubscriptionChannelType.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CommSubscriptionConsent",
+          "fileName": "objects/CommSubscriptionConsent.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CommSubscriptionTiming",
+          "fileName": "objects/CommSubscriptionTiming.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ConsumptionRate",
+          "fileName": "objects/ConsumptionRate.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ConsumptionSchedule",
+          "fileName": "objects/ConsumptionSchedule.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Contact",
+          "fileName": "objects/Contact.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ContactCleanInfo",
+          "fileName": "objects/ContactCleanInfo.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ContactPointAddress",
+          "fileName": "objects/ContactPointAddress.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ContactPointConsent",
+          "fileName": "objects/ContactPointConsent.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ContactPointEmail",
+          "fileName": "objects/ContactPointEmail.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ContactPointPhone",
+          "fileName": "objects/ContactPointPhone.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ContactPointTypeConsent",
+          "fileName": "objects/ContactPointTypeConsent.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ContactRequest",
+          "fileName": "objects/ContactRequest.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ContentDocument",
+          "fileName": "objects/ContentDocument.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ContentVersion",
+          "fileName": "objects/ContentVersion.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Contract",
+          "fileName": "objects/Contract.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ContractContactRole",
+          "fileName": "objects/ContractContactRole.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ContractLineItem",
+          "fileName": "objects/ContractLineItem.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ConvEntryRelatedRecordCopy",
+          "fileName": "objects/ConvEntryRelatedRecordCopy.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ConversationApiLog",
+          "fileName": "objects/ConversationApiLog.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ConversationApiLogObjSum",
+          "fileName": "objects/ConversationApiLogObjSum.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ConversationEntryCopy",
+          "fileName": "objects/ConversationEntryCopy.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Coupon",
+          "fileName": "objects/Coupon.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CouponCodeRedemption",
+          "fileName": "objects/CouponCodeRedemption.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CreditMemo",
+          "fileName": "objects/CreditMemo.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CreditMemoInvApplication",
+          "fileName": "objects/CreditMemoInvApplication.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "CreditMemoLine",
+          "fileName": "objects/CreditMemoLine.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Customer",
+          "fileName": "objects/Customer.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DandBCompany",
+          "fileName": "objects/DandBCompany.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DataMaskCustomValueLibrary",
+          "fileName": "objects/DataMaskCustomValueLibrary.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DataUseLegalBasis",
+          "fileName": "objects/DataUseLegalBasis.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DataUsePurpose",
+          "fileName": "objects/DataUsePurpose.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DeliveryEstimationSetup",
+          "fileName": "objects/DeliveryEstimationSetup.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsActivityLog",
+          "fileName": "objects/DevopsActivityLog.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsEnvDeployment",
+          "fileName": "objects/DevopsEnvDeployment.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsEnvDeploymentMbr",
+          "fileName": "objects/DevopsEnvDeploymentMbr.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsEnvironment",
+          "fileName": "objects/DevopsEnvironment.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsPipeline",
+          "fileName": "objects/DevopsPipeline.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsPipelineEnvironment",
+          "fileName": "objects/DevopsPipelineEnvironment.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsPipelineStage",
+          "fileName": "objects/DevopsPipelineStage.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsPipelineStageTrigger",
+          "fileName": "objects/DevopsPipelineStageTrigger.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsPipelineTestProvider",
+          "fileName": "objects/DevopsPipelineTestProvider.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsPipelnStgProm",
+          "fileName": "objects/DevopsPipelnStgProm.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsPipelnStgPromWkItem",
+          "fileName": "objects/DevopsPipelnStgPromWkItem.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsProject",
+          "fileName": "objects/DevopsProject.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsProjectEnvironment",
+          "fileName": "objects/DevopsProjectEnvironment.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsProjectPipeline",
+          "fileName": "objects/DevopsProjectPipeline.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsQualityGate",
+          "fileName": "objects/DevopsQualityGate.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsQualityGateResult",
+          "fileName": "objects/DevopsQualityGateResult.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsQualityGateRule",
+          "fileName": "objects/DevopsQualityGateRule.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsQualityGateRuleResult",
+          "fileName": "objects/DevopsQualityGateRuleResult.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsRequestInfo",
+          "fileName": "objects/DevopsRequestInfo.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsTest",
+          "fileName": "objects/DevopsTest.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsTestExecution",
+          "fileName": "objects/DevopsTestExecution.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsTestProviderSyncLog",
+          "fileName": "objects/DevopsTestProviderSyncLog.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsTestSuite",
+          "fileName": "objects/DevopsTestSuite.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsTestSuiteExecution",
+          "fileName": "objects/DevopsTestSuiteExecution.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsTestSuiteGroupExec",
+          "fileName": "objects/DevopsTestSuiteGroupExec.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsTestSuiteStage",
+          "fileName": "objects/DevopsTestSuiteStage.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsTestSuiteTest",
+          "fileName": "objects/DevopsTestSuiteTest.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DevopsWkItmTstSteGrpExec",
+          "fileName": "objects/DevopsWkItmTstSteGrpExec.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DigitalWallet",
+          "fileName": "objects/DigitalWallet.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DuplicateRecordItem",
+          "fileName": "objects/DuplicateRecordItem.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "DuplicateRecordSet",
+          "fileName": "objects/DuplicateRecordSet.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "EmailMessage",
+          "fileName": "objects/EmailMessage.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "EngagementChannelType",
+          "fileName": "objects/EngagementChannelType.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "EngagementChannelWorkType",
+          "fileName": "objects/EngagementChannelWorkType.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Entitlement",
+          "fileName": "objects/Entitlement.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "EntitlementContact",
+          "fileName": "objects/EntitlementContact.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "EntityMilestone",
+          "fileName": "objects/EntityMilestone.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Event",
+          "fileName": "objects/Event.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ExchangeUserMapping",
+          "fileName": "objects/ExchangeUserMapping.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ExpressionFilter",
+          "fileName": "objects/ExpressionFilter.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ExpressionFilterCriteria",
+          "fileName": "objects/ExpressionFilterCriteria.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ExternalEventMapping",
+          "fileName": "objects/ExternalEventMapping.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ExtlRecShrStagedRecord",
+          "fileName": "objects/ExtlRecShrStagedRecord.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "FeedItem",
+          "fileName": "objects/FeedItem.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "FinanceBalanceSnapshot",
+          "fileName": "objects/FinanceBalanceSnapshot.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "FinanceTransaction",
+          "fileName": "objects/FinanceTransaction.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "FlowOrchestrationInstance",
+          "fileName": "objects/FlowOrchestrationInstance.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "FlowOrchestrationLog",
+          "fileName": "objects/FlowOrchestrationLog.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "FlowOrchestrationStageInstance",
+          "fileName": "objects/FlowOrchestrationStageInstance.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "FlowOrchestrationStepInstance",
+          "fileName": "objects/FlowOrchestrationStepInstance.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "FlowOrchestrationVersion",
+          "fileName": "objects/FlowOrchestrationVersion.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "FlowOrchestrationWorkItem",
+          "fileName": "objects/FlowOrchestrationWorkItem.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "FlowPersonalConfiguration__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowPersonalConfiguration__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FlowTableViewDefinition__c",
+          "manageableState": "installedEditable",
+          "fileName": "objects/FlowTableViewDefinition__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "FulfillmentOrder",
+          "fileName": "objects/FulfillmentOrder.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "FulfillmentOrderItemAdjustment",
+          "fileName": "objects/FulfillmentOrderItemAdjustment.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "FulfillmentOrderItemTax",
+          "fileName": "objects/FulfillmentOrderItemTax.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "FulfillmentOrderLineItem",
+          "fileName": "objects/FulfillmentOrderLineItem.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "GisPrvdCnctrJobObjRun",
+          "fileName": "objects/GisPrvdCnctrJobObjRun.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Idea",
+          "fileName": "objects/Idea.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Image",
+          "fileName": "objects/Image.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Incident",
+          "fileName": "objects/Incident.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "IncidentRelatedItem",
+          "fileName": "objects/IncidentRelatedItem.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Individual",
+          "fileName": "objects/Individual.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "InventoryItemReservation",
+          "fileName": "objects/InventoryItemReservation.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "InventoryReservation",
+          "fileName": "objects/InventoryReservation.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Invoice",
+          "fileName": "objects/Invoice.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "InvoiceLine",
+          "fileName": "objects/InvoiceLine.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Lead",
+          "fileName": "objects/Lead.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "LeadCleanInfo",
+          "fileName": "objects/LeadCleanInfo.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "LegalEntity",
+          "fileName": "objects/LegalEntity.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Location",
+          "fileName": "objects/Location.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "LocationGroup",
+          "fileName": "objects/LocationGroup.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "LocationGroupAssignment",
+          "fileName": "objects/LocationGroupAssignment.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "LocationShippingCarrierMethod",
+          "fileName": "objects/LocationShippingCarrierMethod.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Macro",
+          "fileName": "objects/Macro.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "MacroAction",
+          "fileName": "objects/MacroAction.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "MacroInstruction",
+          "fileName": "objects/MacroInstruction.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "MacroUsage",
+          "fileName": "objects/MacroUsage.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "MessagingEndUser",
+          "fileName": "objects/MessagingEndUser.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "MessagingSession",
+          "fileName": "objects/MessagingSession.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "MLModel",
+          "fileName": "objects/MLModel.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "MLModelFactor",
+          "fileName": "objects/MLModelFactor.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "MLModelFactorComponent",
+          "fileName": "objects/MLModelFactorComponent.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "OperatingHours",
+          "fileName": "objects/OperatingHours.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "OperatingHoursHoliday",
+          "fileName": "objects/OperatingHoursHoliday.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Opportunity",
+          "fileName": "objects/Opportunity.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "OpportunityCompetitor",
+          "fileName": "objects/OpportunityCompetitor.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "OpportunityContactRole",
+          "fileName": "objects/OpportunityContactRole.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "OpportunityLineItem",
+          "fileName": "objects/OpportunityLineItem.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "OpportunityRelatedDeleteLog",
+          "fileName": "objects/OpportunityRelatedDeleteLog.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Order",
+          "fileName": "objects/Order.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "OrderItem",
+          "fileName": "objects/OrderItem.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "OrgDeleteRequest",
+          "fileName": "objects/OrgDeleteRequest.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "OrgMetricScanResult",
+          "fileName": "objects/OrgMetricScanResult.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "OrgMetricScanSummary",
+          "fileName": "objects/OrgMetricScanSummary.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PartnerRole",
+          "fileName": "objects/PartnerRole.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PartyConsent",
+          "fileName": "objects/PartyConsent.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Payment",
+          "fileName": "objects/Payment.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PaymentAuthAdjustment",
+          "fileName": "objects/PaymentAuthAdjustment.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PaymentAuthorization",
+          "fileName": "objects/PaymentAuthorization.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PaymentCredit",
+          "fileName": "objects/PaymentCredit.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PaymentCreditLinePayment",
+          "fileName": "objects/PaymentCreditLinePayment.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PaymentCreditTransaction",
+          "fileName": "objects/PaymentCreditTransaction.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PaymentGateway",
+          "fileName": "objects/PaymentGateway.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PaymentGroup",
+          "fileName": "objects/PaymentGroup.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PaymentLineInvoice",
+          "fileName": "objects/PaymentLineInvoice.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PaymentMethod",
+          "fileName": "objects/PaymentMethod.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Pricebook2",
+          "fileName": "objects/Pricebook2.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PricebookEntry",
+          "fileName": "objects/PricebookEntry.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PrivacyJobSession",
+          "fileName": "objects/PrivacyJobSession.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PrivacyRTBFRequest",
+          "fileName": "objects/PrivacyRTBFRequest.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Problem",
+          "fileName": "objects/Problem.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ProblemIncident",
+          "fileName": "objects/ProblemIncident.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ProblemRelatedItem",
+          "fileName": "objects/ProblemRelatedItem.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ProcessException",
+          "fileName": "objects/ProcessException.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Product2",
+          "fileName": "objects/Product2.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ProductAttribute",
+          "fileName": "objects/ProductAttribute.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ProductAttributeSetProduct",
+          "fileName": "objects/ProductAttributeSetProduct.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ProductCatalog",
+          "fileName": "objects/ProductCatalog.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ProductCategory",
+          "fileName": "objects/ProductCategory.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ProductCategoryProduct",
+          "fileName": "objects/ProductCategoryProduct.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ProductConsumptionSchedule",
+          "fileName": "objects/ProductConsumptionSchedule.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Promotion",
+          "fileName": "objects/Promotion.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PromotionLineItemRule",
+          "fileName": "objects/PromotionLineItemRule.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PromotionMarketSegment",
+          "fileName": "objects/PromotionMarketSegment.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PromotionQualifier",
+          "fileName": "objects/PromotionQualifier.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PromotionSegment",
+          "fileName": "objects/PromotionSegment.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PromotionSegmentBuyerGroup",
+          "fileName": "objects/PromotionSegmentBuyerGroup.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PromotionSegmentSalesStore",
+          "fileName": "objects/PromotionSegmentSalesStore.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PromotionTarget",
+          "fileName": "objects/PromotionTarget.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PromotionTier",
+          "fileName": "objects/PromotionTier.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PromptAction",
+          "fileName": "objects/PromptAction.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "PromptError",
+          "fileName": "objects/PromptError.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "QuickText",
+          "fileName": "objects/QuickText.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "QuickTextUsage",
+          "fileName": "objects/QuickTextUsage.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Recommendation",
+          "fileName": "objects/Recommendation.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "RecordAction",
+          "fileName": "objects/RecordAction.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "RecordMergeHistory",
+          "fileName": "objects/RecordMergeHistory.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Refund",
+          "fileName": "objects/Refund.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "RefundLinePayment",
+          "fileName": "objects/RefundLinePayment.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ReportAnomalyEventStore",
+          "fileName": "objects/ReportAnomalyEventStore.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ReportHierarchyObjectField",
+          "fileName": "objects/ReportHierarchyObjectField.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ResourceAbsence",
+          "fileName": "objects/ResourceAbsence.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ResourcePreference",
+          "fileName": "objects/ResourcePreference.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ReturnOrder",
+          "fileName": "objects/ReturnOrder.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ReturnOrderItemAdjustment",
+          "fileName": "objects/ReturnOrderItemAdjustment.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ReturnOrderItemTax",
+          "fileName": "objects/ReturnOrderItemTax.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ReturnOrderLineItem",
+          "fileName": "objects/ReturnOrderLineItem.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "SalesStore",
+          "fileName": "objects/SalesStore.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Scorecard",
+          "fileName": "objects/Scorecard.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ScorecardAssociation",
+          "fileName": "objects/ScorecardAssociation.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ScorecardMetric",
+          "fileName": "objects/ScorecardMetric.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "SearchRecentQuery",
+          "fileName": "objects/SearchRecentQuery.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "SecurityHealthCheckAlertRecipient",
+          "fileName": "objects/SecurityHealthCheckAlertRecipient.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "SecurityHealthCheckResult",
+          "fileName": "objects/SecurityHealthCheckResult.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Seller",
+          "fileName": "objects/Seller.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ServiceAppointment",
+          "fileName": "objects/ServiceAppointment.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ServiceAppointmentAttendee",
+          "fileName": "objects/ServiceAppointmentAttendee.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ServiceContract",
+          "fileName": "objects/ServiceContract.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ServiceResource",
+          "fileName": "objects/ServiceResource.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ServiceResourceSkill",
+          "fileName": "objects/ServiceResourceSkill.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ServiceTerritory",
+          "fileName": "objects/ServiceTerritory.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ServiceTerritoryMember",
+          "fileName": "objects/ServiceTerritoryMember.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ServiceTerritoryWorkType",
+          "fileName": "objects/ServiceTerritoryWorkType.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "SfdcPartnerSbscrOffer",
+          "fileName": "objects/SfdcPartnerSbscrOffer.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "SfdcPartnerSbscrOfferItem",
+          "fileName": "objects/SfdcPartnerSbscrOfferItem.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Shift",
+          "fileName": "objects/Shift.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ShiftEngagementChannel",
+          "fileName": "objects/ShiftEngagementChannel.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ShiftWorkTopic",
+          "fileName": "objects/ShiftWorkTopic.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Shipment",
+          "fileName": "objects/Shipment.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ShipmentItem",
+          "fileName": "objects/ShipmentItem.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ShippingCarrier",
+          "fileName": "objects/ShippingCarrier.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ShippingCarrierMethod",
+          "fileName": "objects/ShippingCarrierMethod.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ShippingConfigurationSet",
+          "fileName": "objects/ShippingConfigurationSet.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ShippingRateArea",
+          "fileName": "objects/ShippingRateArea.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "ShippingRateGroup",
+          "fileName": "objects/ShippingRateGroup.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Site",
+          "fileName": "objects/Site.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "SkillRequirement",
+          "fileName": "objects/SkillRequirement.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "SlackChannelRelatedRecord",
+          "fileName": "objects/SlackChannelRelatedRecord.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "SocialPersona",
+          "fileName": "objects/SocialPersona.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Solution",
+          "fileName": "objects/Solution.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "SourceCodeRepoProvider",
+          "fileName": "objects/SourceCodeRepoProvider.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "SourceCodeRepository",
+          "fileName": "objects/SourceCodeRepository.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "SourceCodeRepositoryBranch",
+          "fileName": "objects/SourceCodeRepositoryBranch.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "StandardShippingRate",
+          "fileName": "objects/StandardShippingRate.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "StreamActivityAccess",
+          "fileName": "objects/StreamActivityAccess.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "StreamingChannel",
+          "fileName": "objects/StreamingChannel.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Student__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Student__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-19T17:12:42.000Z"
+        },
+        {
+          "fullName": "TableauHostMapping",
+          "fileName": "objects/TableauHostMapping.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Task",
+          "fileName": "objects/Task.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "thsecurity__AppLog__c",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "objects/thsecurity__AppLog__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "thsecurity__AppLogEvent__e",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "objects/thsecurity__AppLogEvent__e.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "thsecurity__Setting__mdt",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "objects/thsecurity__Setting__mdt.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "thsecurity__TestPrivateKey__mdt",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "objects/thsecurity__TestPrivateKey__mdt.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "thsecurity__TestPublicKey__mdt",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "objects/thsecurity__TestPublicKey__mdt.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-05T03:27:52.000Z"
+        },
+        {
+          "fullName": "TimeSlot",
+          "fileName": "objects/TimeSlot.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Topic",
+          "fileName": "objects/Topic.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "TopicAssignment",
+          "fileName": "objects/TopicAssignment.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "UnstructuredStorageSpace",
+          "fileName": "objects/UnstructuredStorageSpace.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "UnstructuredStorageSpaceLayer",
+          "fileName": "objects/UnstructuredStorageSpaceLayer.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "User",
+          "fileName": "objects/User.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "UserCapabilityPreference",
+          "fileName": "objects/UserCapabilityPreference.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "UserDevopsPreference",
+          "fileName": "objects/UserDevopsPreference.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "UserExternalCredential",
+          "fileName": "objects/UserExternalCredential.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "UserLocalWebServerIdentity",
+          "fileName": "objects/UserLocalWebServerIdentity.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "UserPrioritizedRecord",
+          "fileName": "objects/UserPrioritizedRecord.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "UserProvisioningRequest",
+          "fileName": "objects/UserProvisioningRequest.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Vijay__c",
+          "manageableState": "unmanaged",
+          "fileName": "objects/Vijay__c.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "2026-09-19T17:35:26.000Z"
+        },
+        {
+          "fullName": "VoiceCall",
+          "fileName": "objects/VoiceCall.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "Waitlist",
+          "fileName": "objects/Waitlist.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WaitlistParticipant",
+          "fileName": "objects/WaitlistParticipant.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WaitlistServiceResource",
+          "fileName": "objects/WaitlistServiceResource.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WaitlistWorkType",
+          "fileName": "objects/WaitlistWorkType.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WebCart",
+          "fileName": "objects/WebCart.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WebCartActivityLog",
+          "fileName": "objects/WebCartActivityLog.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WebCartAdjustmentBasis",
+          "fileName": "objects/WebCartAdjustmentBasis.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WebCartAdjustmentGroup",
+          "fileName": "objects/WebCartAdjustmentGroup.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WebCartCollaborator",
+          "fileName": "objects/WebCartCollaborator.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WebCartCredit",
+          "fileName": "objects/WebCartCredit.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WebStore",
+          "fileName": "objects/WebStore.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WebStoreBuyerGroup",
+          "fileName": "objects/WebStoreBuyerGroup.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WebStoreCatalog",
+          "fileName": "objects/WebStoreCatalog.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WebStoreInventorySource",
+          "fileName": "objects/WebStoreInventorySource.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WorkflowSLAAction",
+          "fileName": "objects/WorkflowSLAAction.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WorkItem",
+          "fileName": "objects/WorkItem.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WorkItemComponent",
+          "fileName": "objects/WorkItemComponent.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WorkItemComponentList",
+          "fileName": "objects/WorkItemComponentList.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WorkOrder",
+          "fileName": "objects/WorkOrder.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WorkOrderLineItem",
+          "fileName": "objects/WorkOrderLineItem.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WorkPlan",
+          "fileName": "objects/WorkPlan.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WorkPlanTemplate",
+          "fileName": "objects/WorkPlanTemplate.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WorkPlanTemplateEntry",
+          "fileName": "objects/WorkPlanTemplateEntry.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WorkStep",
+          "fileName": "objects/WorkStep.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WorkStepTemplate",
+          "fileName": "objects/WorkStepTemplate.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WorkType",
+          "fileName": "objects/WorkType.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WorkTypeGroup",
+          "fileName": "objects/WorkTypeGroup.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        },
+        {
+          "fullName": "WorkTypeGroupMember",
+          "fileName": "objects/WorkTypeGroupMember.object",
+          "lastModifiedByName": "Ketansimha Reddy",
+          "lastModifiedDate": "1970-01-01T00:00:00.000Z"
+        }
+      ]
+    }
+  ]
+}
